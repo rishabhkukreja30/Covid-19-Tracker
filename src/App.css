@@ -5,11 +5,25 @@
 body {
   background-color: #f5f6fa;
 }
+
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.app-right {
+  margin: 20px 0;
+}
+
+.app-left {
+  flex: 0.9;
+}
+
 .app-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
 }
 
 .form-class {
@@ -25,4 +39,10 @@ option {
 .app-stats {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
 }
