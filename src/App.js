@@ -1,8 +1,10 @@
 import './App.css'
 import React, {useState, useEffect} from 'react'
+import {Card, Form} from 'react-bootstrap'
 import InfoBox from './components/InfoBox'
 import Map from './components/Map'
-import {Card, Form} from 'react-bootstrap'
+import Table from './components/Table'
+
 
 function App() {
 
@@ -31,7 +33,7 @@ function App() {
             value: country.countryInfo.iso2
           }
         ))
-        setTableData()
+          setTableData(data)
           setCountries(countries)
 
       })
