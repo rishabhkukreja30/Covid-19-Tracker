@@ -1,3 +1,20 @@
 * {
   margin: 0;
 }
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.form-class {
+  height: 25px;
+  font-size: medium;
+  width: 100px;
+}
+
+option {
+  font-size: medium;
+}

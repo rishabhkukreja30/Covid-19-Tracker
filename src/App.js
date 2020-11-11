@@ -1,9 +1,14 @@
-import './App.css';
+import './App.css'
+import React from 'react'
+import AppHeader from './components/AppHeader'
+
 
 function App() {
+
+
   return (
     <div className="App">
-      <h1>Covid 19 tracker</h1>
+      <AppHeader />
     </div>
   );
 }
