@@ -2,11 +2,14 @@
   margin: 0;
 }
 
+body {
+  background-color: #f5f6fa;
+}
 .app-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .form-class {
@@ -17,4 +20,9 @@
 
 option {
   font-size: medium;
+}
+
+.app-stats {
+  display: flex;
+  justify-content: space-between;
 }
