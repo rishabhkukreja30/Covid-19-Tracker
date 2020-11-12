@@ -93,10 +93,13 @@ function App() {
       <Card className='app-right' style={{backgroundColor: '#e8e8e8'}} >
         <Card >
           <h3>Live Cases By Country</h3>
-          <Table countries={tableData} />
-          <h3>Worldwide New Cases</h3>
-        </Card>
-        <LineGraph />
+          <Table countries={tableData}/>
+          </Card>
+          <Card>
+            <h3>Worldwide New Cases</h3>
+            <LineGraph />
+          </Card>
+     
       </Card>
     </div>
   );
