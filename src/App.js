@@ -4,6 +4,7 @@ import {Card, Form} from 'react-bootstrap'
 import InfoBox from './components/InfoBox'
 import Map from './components/Map'
 import Table from './components/Table'
+import LineGraph from './components/LineGraph'
 
 
 function App() {
@@ -76,12 +77,13 @@ function App() {
       </div>
       <Map />
       </div>
-      <Card className='app-right'>
-        <Card style={{backgroundColor: '#e8e8e8'}}>
+      <Card className='app-right' style={{backgroundColor: '#e8e8e8'}} >
+        <Card >
           <h3>Live Cases By Country</h3>
           <Table countries={tableData} />
           <h3>Worldwide New Cases</h3>
         </Card>
+        <LineGraph />
       </Card>
     </div>
   );
