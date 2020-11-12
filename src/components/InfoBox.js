@@ -11,7 +11,7 @@ const InfoBox = ({title , cases, total}) => {
                 </Card.Title>
 
             <Card.Text>
-                <strong>{cases}</strong>
+                <strong>{cases} Today</strong>
             </Card.Text>
 
             <Card.Text>
